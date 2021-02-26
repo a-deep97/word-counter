@@ -105,15 +105,20 @@ html , body{
     width: 90%;
     height: 50px;
     border-radius: 10px;
+    border: solid 1px var(--color1);
 }
 .control-button{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: beige;
     height: 80%;
     width: 100px;
     margin: 5px 10px;
     font-size: 1.5rem;
+    border-radius: 25px;
+    font-family: var(--font1);
+    outline: none;
 }
 #clear-button{
 }   
