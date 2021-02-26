@@ -6,10 +6,16 @@ html , body{
 
 #nav-bar{
     display: flex;
-    height: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
     background-color: black;
 }
-
+#navbar-title{
+    margin: 5px 10px;
+    color: white;
+    font-size: 2.3rem
+}
 #main-section{
     display: flex;
     flex-direction: row;
@@ -36,9 +42,9 @@ html , body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
-    font-size: 3rem;
-    margin: 10px;
+    font-size: 3.3rem;
+    margin: 5px;
+    padding: 10px 10px;
 }
 #counter-container{
     display: flex;
