@@ -21,7 +21,7 @@ html , body{
 }
 #navbar-title{
     margin: 5px 10px;
-    color: white;
+    color: var(--color4);
     font-size: 2.3rem
 }
 #main-section{
@@ -29,22 +29,23 @@ html , body{
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    background-color: #1A1A1D;
     height: 800px;
 }
 #left-aside{
     display: flex;
-    width: 30%;
+    width: 5%;
     height: 100%;
-    background-color: brown;
+
 }
 #main-container{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin: 0px 10px;
     width: 100%;
-    height: 90%;
+    height: 95%;
 }
 #main-heading{
     display: flex;
@@ -52,13 +53,16 @@ html , body{
     align-items: center;
     font-size: 3.3rem;
     margin: 5px;
-    padding: 10px 10px;
+    padding: 0px 20px;
+    border: solid 1px #950740;
+    border-radius: 10px;
+    color: white;
 }
 #counter-container{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: black;
+    background-color: var(--color5);
     height: 80%;
     width: 90%;
     margin: 10px;
@@ -69,10 +73,10 @@ html , body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70%;
+    height: 400px;
     width: 90%;
     margin: 5px;
-    background-color: bisque;
+    background-color: var(--color2);
     border-radius: 10px;
 }
 #required-para{
@@ -90,9 +94,9 @@ html , body{
     justify-content: flex-end;
     align-items: center;
     flex-direction: row;
-    background-color: bisque;
+    background-color: var(--color2);
     width: 90%;
-    height: 10%;
+    height: 50px;
     border-radius: 10px;
 }
 .control-button{
@@ -113,10 +117,11 @@ html , body{
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    background-color: bisque;
+    background-color: var(--color2);
     width: 90%;
-    height: 30%;
+    height: 130px;
     border-radius: 10px;
+    border: solid 1px var(--color1);
 }
 .result{
     display: flex;
@@ -132,8 +137,8 @@ html , body{
 #total-chars{
 
 }
-#right-article{
-    width: 20%;
+#right-aside{
+    width: 5%;
 }
 
 footer{
