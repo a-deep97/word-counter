@@ -59,21 +59,51 @@ html , body{
     margin: 5px;
     background-color: aqua;
 }
-#control-area{
+#required-para{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    height: 95%;
+    resize: none;
+}
+#control-area{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
     background-color: blue;
     width: 90%;
     height: 10%;
 }
-#result-area{
+.control-button{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80%;
+    width: 100px;
+    margin: 5px 10px;
+    font-size: 1.5rem;
+}
+#clear-button{
+}   
+#calculate-button{
+}
+#result-area{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-color: brown;
     width: 90%;
     height: 30%;
+}
+#total-words{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin: 10px;
+    font-size: 2rem;
 }
 #right-article{
     width: 20%;
