@@ -30,6 +30,7 @@ function isSpecialChar(word){
 calculates the words in the para 
 */
 function counter(para){
+    para = para.replace(/\n/g, " ");
     para=removeExtraSpace(para);
     para = para.split(" ");
     var words=0;
