@@ -22,13 +22,16 @@ html , body{
     justify-content: flex-start;
     align-items: center;
     height: 70px;
-    background-color: black;
+    background-color: var(--color5);
 }
 #navbar-title{
     margin: 5px 10px;
-    color: var(--color4);
+    padding: 0px 10px;
+    color: var(--color1);
     font-size: 2.3rem;
     font-family: var(--font1);
+    border: solid 1px var(--color1);
+    border-radius: 5px;
 }
 #main-section{
     display: flex;
