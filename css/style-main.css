@@ -21,7 +21,7 @@ html , body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 10px;
+    height: 60px;
     background-color: var(--color5);
 }
 #navbar-title{
