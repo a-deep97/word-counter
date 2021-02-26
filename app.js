@@ -1,7 +1,7 @@
 //express module
 const express =require('express');
 
-
+const path =require('path');
 
 //express function
 const app=express();
@@ -12,7 +12,7 @@ app.use(express.static('public'));
 app.use('/css',express.static(__dirname+'public/css'));
 
 app.get('/',(req,res)=>{
-    res.send('hello');
+    res.sendFile(path.join(__dirname,'./views/index.html'));
 });
 
 
