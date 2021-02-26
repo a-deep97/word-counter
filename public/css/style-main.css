@@ -1,4 +1,11 @@
 
+:root{
+    --color1 : #1A1A1D ;
+    --color2 : #4E4E50 ;
+    --color3 : #6F2232 ;
+    --color4 : #950740 ;
+    --color5 : #c3073F ;
+}
 
 html , body{
     margin: 0px 0px;
