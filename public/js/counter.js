@@ -17,4 +17,5 @@ calculate_button.addEventListener('click',()=>{
 //event on clicking of clear button
 clear_button.addEventListener('click',()=>{
     required_para.value=null;
+    total_words.innerHTML="Total Words : 0";
 });
