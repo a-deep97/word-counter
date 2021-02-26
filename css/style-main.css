@@ -137,7 +137,7 @@ html , body{
     flex-direction: column;
     background-color: var(--color2);
     width: 90%;
-    height: 100px;
+    height: 130px;
     border-radius: 10px;
     border: solid 1px var(--color1);
 }
