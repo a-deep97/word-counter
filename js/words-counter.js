@@ -41,7 +41,7 @@ function counter(para){
             words+=1;
             chars+=para[i].length;
         }
-        else{
+        else if(para[i]!=''){
             chars+=1;
         }
     }
