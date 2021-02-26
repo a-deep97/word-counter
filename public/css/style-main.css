@@ -85,6 +85,7 @@ html , body{
     margin: 5px;
     background-color: var(--color2);
     border-radius: 10px;
+    border: solid 1px var(--color1);
 }
 #required-para{
     display: flex;
@@ -95,6 +96,7 @@ html , body{
     resize: none;
     font-size: 1.5rem;
     border-radius: 5px;
+    outline: none;
 }
 #control-area{
     display: flex;
