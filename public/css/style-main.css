@@ -94,17 +94,24 @@ html , body{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-direction: column;
     background-color: brown;
     width: 90%;
     height: 30%;
 }
-#total-words{
+.result{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
     margin: 10px;
     font-size: 2rem;
+}
+#total-words{
+    
+}
+#total-chars{
+
 }
 #right-article{
     width: 20%;

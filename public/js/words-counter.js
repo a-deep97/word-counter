@@ -32,12 +32,18 @@ calculates the words in the para
 function counter(para){
     para=removeExtraSpace(para);
     para = para.split(" ");
-    var result=0;
+    var words=0;
+    var chars=0;
+    var result;
     for(var i=0;i<para.length;i++){
         if(!isSpecialChar(para[i])){
-            result+=1;
-            console.log(result);
+            words+=1;
+            chars+=para[i].length;
+        }
+        else{
+            chars+=1;
         }
     }
+    result={words,chars};
     return result;
 }
